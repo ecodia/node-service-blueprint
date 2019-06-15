@@ -2,6 +2,16 @@
 
 A quick start for using node with babel (preset-env), express, jest and docker.
 
+## Setup
+
+Use [this template](https://github.com/ecodia/node-service-blueprint/generate) or `git clone git@github.com:ecodia/node-service-blueprint.git`.
+
+```shell
+npm i
+cp example.env .env
+npm start
+```
+
 ## Commands
 
 | Command         | Description                                         |
@@ -12,9 +22,9 @@ A quick start for using node with babel (preset-env), express, jest and docker.
 
 ## Environment Variables
 
-| Name | Description                      |
-|------|----------------------------------|
-| PORT | The port this service listens on |
+| Name | Default | Description                      |
+|------|---------|----------------------------------|
+| PORT | 3000    | The port this service listens on |
 
 ## Licence
 
